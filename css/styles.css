@@ -4,6 +4,7 @@
     --first-text-color: #212121;
     --last-text-color: #757575;
     --focus-text-color: #2196F3;
+    --backgound-color: #2F303A;
 
 }
 body {
@@ -65,6 +66,9 @@ body {
     color: var(--focus-text-color);
 }
 /* Hero-title */
+.hero-section {
+    background: var(--backgound-color);
+}
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -150,6 +154,9 @@ letter-spacing: 0.03em;
 color: var(--last-text-color);
 }
 /* footer */
+.footer-color {
+    background-color: var(--backgound-color);
+}
 .footer-logo {
     font-family: 'Raleway';
     font-weight: 700;
