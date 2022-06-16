@@ -95,7 +95,8 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-    visibility: hidden;
+    background-color: #188CE8;
+    color: var(--title-text-color);
 }
 /* benefits */
 .benefits-titile {
